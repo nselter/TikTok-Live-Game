@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAC704D29CA9A7700C80018 /* winNoise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1AAC704C29CA9A7700C80018 /* winNoise.mp3 */; };
+		1ADBB98029C8CEC000EAEC08 /* TwoP_ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBB97F29C8CEC000EAEC08 /* TwoP_ClickerApp.swift */; };
+		1ADBB98229C8CEC000EAEC08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADBB98129C8CEC000EAEC08 /* ContentView.swift */; };
+		1ADBB98429C8CEC200EAEC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBB98329C8CEC200EAEC08 /* Assets.xcassets */; };
+		1ADBB98729C8CEC200EAEC08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADBB98629C8CEC200EAEC08 /* Preview Assets.xcassets */; };
+		1ADE5F2829CC08590001DC63 /* LGBTAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE5F2729CC08590001DC63 /* LGBTAudio.mp3 */; };
+		1ADE5F2E29CC0E560001DC63 /* StraightAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE5F2D29CC0E560001DC63 /* StraightAudio.mp3 */; };
+		1ADE5F3029CC1D720001DC63 /* bonesss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1ADE5F2F29CC1D720001DC63 /* bonesss.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AAC704B29CA986F00C80018 /* TwoP-Clicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TwoP-Clicker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1AAC704C29CA9A7700C80018 /* winNoise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winNoise.mp3; sourceTree = "<group>"; };
+		1ADBB97C29C8CEC000EAEC08 /* TwoP Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwoP Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADBB97F29C8CEC000EAEC08 /* TwoP_ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoP_ClickerApp.swift; sourceTree = "<group>"; };
+		1ADBB98129C8CEC000EAEC08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ADBB98329C8CEC200EAEC08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADBB98629C8CEC200EAEC08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ADE5F2729CC08590001DC63 /* LGBTAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LGBTAudio.mp3; sourceTree = "<group>"; };
+		1ADE5F2D29CC0E560001DC63 /* StraightAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = StraightAudio.mp3; sourceTree = "<group>"; };
+		1ADE5F2F29CC1D720001DC63 /* bonesss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bonesss.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADBB97929C8CEC000EAEC08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADBB97329C8CEC000EAEC08 = {
+			isa = PBXGroup;
+			children = (
+				1ADBB97E29C8CEC000EAEC08 /* TwoP Clicker */,
+				1ADBB97D29C8CEC000EAEC08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADBB97D29C8CEC000EAEC08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBB97C29C8CEC000EAEC08 /* TwoP Clicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADBB97E29C8CEC000EAEC08 /* TwoP Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC704B29CA986F00C80018 /* TwoP-Clicker-Info.plist */,
+				1ADE5F2729CC08590001DC63 /* LGBTAudio.mp3 */,
+				1ADE5F2D29CC0E560001DC63 /* StraightAudio.mp3 */,
+				1ADE5F2F29CC1D720001DC63 /* bonesss.mp3 */,
+				1AAC704C29CA9A7700C80018 /* winNoise.mp3 */,
+				1ADBB97F29C8CEC000EAEC08 /* TwoP_ClickerApp.swift */,
+				1ADBB98129C8CEC000EAEC08 /* ContentView.swift */,
+				1ADBB98329C8CEC200EAEC08 /* Assets.xcassets */,
+				1ADBB98529C8CEC200EAEC08 /* Preview Content */,
+			);
+			path = "TwoP Clicker";
+			sourceTree = "<group>";
+		};
+		1ADBB98529C8CEC200EAEC08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ADBB98629C8CEC200EAEC08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ADBB97B29C8CEC000EAEC08 /* TwoP Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADBB98A29C8CEC200EAEC08 /* Build configuration list for PBXNativeTarget "TwoP Clicker" */;
+			buildPhases = (
+				1ADBB97829C8CEC000EAEC08 /* Sources */,
+				1ADBB97929C8CEC000EAEC08 /* Frameworks */,
+				1ADBB97A29C8CEC000EAEC08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TwoP Clicker";
+			productName = "TwoP Clicker";
+			productReference = 1ADBB97C29C8CEC000EAEC08 /* TwoP Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADBB97429C8CEC000EAEC08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1ADBB97B29C8CEC000EAEC08 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1ADBB97729C8CEC000EAEC08 /* Build configuration list for PBXProject "TwoP Clicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ADBB97329C8CEC000EAEC08;
+			productRefGroup = 1ADBB97D29C8CEC000EAEC08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADBB97B29C8CEC000EAEC08 /* TwoP Clicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADBB97A29C8CEC000EAEC08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADBB98729C8CEC200EAEC08 /* Preview Assets.xcassets in Resources */,
+				1ADE5F2829CC08590001DC63 /* LGBTAudio.mp3 in Resources */,
+				1ADBB98429C8CEC200EAEC08 /* Assets.xcassets in Resources */,
+				1AAC704D29CA9A7700C80018 /* winNoise.mp3 in Resources */,
+				1ADE5F3029CC1D720001DC63 /* bonesss.mp3 in Resources */,
+				1ADE5F2E29CC0E560001DC63 /* StraightAudio.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADBB97829C8CEC000EAEC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADBB98229C8CEC000EAEC08 /* ContentView.swift in Sources */,
+				1ADBB98029C8CEC000EAEC08 /* TwoP_ClickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ADBB98829C8CEC200EAEC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ADBB98929C8CEC200EAEC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADBB98B29C8CEC200EAEC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoP Clicker/Preview Content\"";
+				DEVELOPMENT_TEAM = YA74M7LV56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TwoP-Clicker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NGames.TwoP-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADBB98C29C8CEC200EAEC08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoP Clicker/Preview Content\"";
+				DEVELOPMENT_TEAM = YA74M7LV56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TwoP-Clicker-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NGames.TwoP-Clicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADBB97729C8CEC000EAEC08 /* Build configuration list for PBXProject "TwoP Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBB98829C8CEC200EAEC08 /* Debug */,
+				1ADBB98929C8CEC200EAEC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADBB98A29C8CEC200EAEC08 /* Build configuration list for PBXNativeTarget "TwoP Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADBB98B29C8CEC200EAEC08 /* Debug */,
+				1ADBB98C29C8CEC200EAEC08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADBB97429C8CEC000EAEC08 /* Project object */;
+}
